@@ -455,7 +455,20 @@ textarea {
     width: 90%;
     line-height: 1.6;
     font-size: 1.05rem;
+    resize:none;
 }
+#contact-form input, textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
 
 #contact-form button[type="submit"] {
     background: transparent;
@@ -716,4 +729,3 @@ button:focus {
     }
 
 }
-
