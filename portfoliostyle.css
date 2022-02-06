@@ -344,7 +344,8 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container {
-    max-width: 300px;
+    max-width: 400px;
+    max-height: 400px;
     overflow: hidden;
     margin: 30px;
     background-size: cover;
